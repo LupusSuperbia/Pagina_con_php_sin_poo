@@ -1,0 +1,29 @@
+.footer{
+    background-color: $grisOscuro;
+    padding: 2rem 3rem;
+    margin-bottom : 0;
+
+    .contenedor-footer{
+        padding-top: 5rem / 2;
+        text-align: center;
+    }
+    .navegacion{
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+    .copyright {
+        color : $blanco;
+        text-align: center;
+
+    }
+}
+
+.footer nav {
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+        flex-direction: row;
+    }
+}
